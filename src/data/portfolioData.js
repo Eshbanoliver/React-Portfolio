@@ -295,42 +295,107 @@ Thank you for visiting my profile! I look forward to connecting with you 😊.`,
   projects: [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "Built a scalable microservices-based e-commerce platform serving 100K+ daily active users with React, Node.js, and AWS.",
-      technologies: ["React", "Node.js", "MongoDB", "AWS", "Docker"],
-      github: "#",
-      demo: "#"
+      title: "Chrono-Charm",
+      description: "An app in React Native that is used for birthday reminder.",
+      technologies: ["App"],
+      github: "https://github.com/Eshbanoliver",
+      demo: "https://github.com/Eshbanoliver"
     },
     {
       id: 2,
-      title: "AI-Powered Analytics Dashboard",
-      description: "Developed an intelligent analytics dashboard with real-time data visualization and machine learning insights for business intelligence.",
-      technologies: ["React", "Python", "TensorFlow", "D3.js", "PostgreSQL"],
-      github: "#",
-      demo: "#"
+      title: "Broken Link Detector",
+      description: "Wordpress plugin to detect broken links in a WP website.",
+      technologies: ["Wordpress" , "Plugin"],
+      github: "https://github.com/Eshbanoliver",
+      demo: "https://github.com/Eshbanoliver"
     },
     {
       id: 3,
-      title: "Mobile Banking Application",
-      description: "Led development of a secure mobile banking app with biometric authentication and real-time transaction processing.",
-      technologies: ["React Native", "Node.js", "MongoDB", "Firebase"],
-      github: "#",
-      demo: "#"
+      title: "Website Core Structure Optimizer",
+      description: "Optimizes core functionality of a WP website",
+      technologies: ["Wordpress" , "Plugin"],
+      github: "https://github.com/Eshbanoliver",
+      demo: "https://github.com/Eshbanoliver"
     },
     {
       id: 4,
-      title: "DevOps Automation Suite",
-      description: "Created a comprehensive DevOps toolkit for automated deployment, monitoring, and scaling of containerized applications.",
-      technologies: ["Kubernetes", "Docker", "Jenkins", "Prometheus", "Grafana"],
-      github: "#",
-      demo: "#"
-    }
+      title: "Content Freshness Monitor",
+      description: "Track the freshness of WP posts. Content update and logs content changes.",
+      technologies: ["Wordpress" , "Plugin"],
+      github: "https://github.com/Eshbanoliver",
+      demo: "https://github.com/Eshbanoliver"
+    },
+    {
+      id: 5,
+      title: "Image Optimizer",
+      description: "Offers performance optimization suggestions",
+      technologies: ["Wordpress" , "Plugin"],
+      github: "https://github.com/Eshbanoliver",
+      demo: "https://github.com/Eshbanoliver"
+    },
+    {
+      id: 6,
+      title: "SEO Content Gap Analyzer",
+      description: "Identify keyword and content gaps between your website and competitors",
+      technologies: ["Wordpress" , "Plugin"],
+      github: "https://github.com/Eshbanoliver",
+      demo: "https://github.com/Eshbanoliver"
+    },
+    {
+      id: 7,
+      title: "Simple Notepad in Python",
+      description: "Simple Notepad (Python) A basic, lightweight notepad application built with Python's Tkinter library",
+      technologies: ["Language" , "Python"],
+      github: "https://github.com/Eshbanoliver/Simple-Notepad",
+      demo: "https://github.com/Eshbanoliver/Simple-Notepad"
+    },
+    {
+      id: 8,
+      title: "Calculator in HTML",
+      description: "A basic web-based calculator built using HTML, CSS, and JavaScript.",
+      technologies: ["Language" , "HTML" , "CSS" , "Javascript"],
+      github: "https://github.com/Eshbanoliver/Calculator",
+      demo: "https://github.com/Eshbanoliver/Calculator"
+    },
+    {
+      id: 9,
+      title: "Portfolio",
+      description: "My portfolio showcases a diverse range of projects, highlighting my skills. With a focus on creativity and precision, I bring unique solutions to each challenge.",
+      technologies: ["Language" , "HTML" , "CSS" , "Javascript"],
+      github: "https://github.com/Eshbanoliver",
+      demo: "https://github.com/Eshbanoliver"
+    },
+    {
+      id: 10,
+      title: "Logo Designing",
+      description: "I design logo for businesses and websites",
+      technologies: ["Graphics"],
+      github: "",
+      demo: ""
+    },
+    {
+      id: 11,
+      title: "Image Designing",
+      description: "I design images for businesses and websites",
+      technologies: ["Graphics"],
+      github: "",
+      demo: ""
+    },
   ],
   contact: {
     email: "olivereshban@gmail.com",
     phone: "+91 9530305588",
-    linkedin: "https://www.linkedin.com/in/eshban-oliver-39169196/",
+    linkedin: "https://www.linkedin.com/in/eshban-oliver-757352372/",
     github: "https://github.com/Eshbanoliver",
     location: "Udaipur, Rajasthan"
-  }
+  },
+  experience: [
+    {
+      id: 1,
+      companyname: "Shapesway Technologies Pvt. Ltd.",
+      worktype: "Web Developer Intern",
+      duration: "3 Months",
+      description: "Developed websites using wordpress, HTML, CSS and made business logos."
+    },
+  ],
 };

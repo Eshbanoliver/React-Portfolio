@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import { path } from 'framer-motion/client';
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -8,6 +9,7 @@ const Navigation = () => {
   const menuItems = [
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
+    { name: 'Experience' , path: '/workexperience' },
     { name: 'Education', path: '/education' },
     { name: 'Certifications', path: '/certifications' },
     { name: 'Projects', path: '/projects' },
