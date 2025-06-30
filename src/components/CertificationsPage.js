@@ -40,7 +40,7 @@ const CertificationsPage = () => (
           variants={fadeInUp}
         />
         
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-3 gap-8">
           {portfolioData.certifications.map((cert) => (
             <motion.div
               key={cert.id}
@@ -53,7 +53,7 @@ const CertificationsPage = () => (
                 <img
                   src={cert.image}
                   alt={`${cert.name} Certificate`}
-                  className="w-full h-48 object-cover"
+                  className="w-full h-48 object-contain"
                 />
                 <div className="absolute top-4 right-4 bg-white rounded-full p-2 shadow-lg">
                   <span className="text-2xl">{cert.icon}</span>

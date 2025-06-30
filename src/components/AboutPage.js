@@ -40,14 +40,8 @@ const AboutPage = () => (
           variants={fadeInUp}
           whileHover={{ y: -5 }}
         >
-          <p className="text-lg text-gray-600 leading-relaxed">
-            <ul>
-              <li>I am currently pursuing my Fourth Semester Master's Degree in Computer Application. I have built a solid foundation in front-end development, particularly in areas such as H.T.M.L., C.S.S., Javascript, alongwith the basic knowledge of Python, React Native and GitHub.</li>
-              <br/>
-              <li>My expertise in these areas allows me to approach projects with confidence and deliver high-quality results.I have a strong belief in the value of continuous learning and staying adaptable in the ever-evolving world of Web Development.</li>
-              <br/>
-              <li>I actively seek out opportunities to expand my knowledge and skills, embracing new technologies and approaches.Feel free to explore my work and get in touch if you have any questions or opportunities to collaborate. </li>
-            </ul>
+          <p className="text-lg text-gray-600 leading-relaxed" style={{ whiteSpace: 'pre-line', textAlign: 'left' }}>
+            {portfolioData.about.des}
           </p>
         </motion.div>
       </motion.div>
